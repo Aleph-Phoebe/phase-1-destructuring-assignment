@@ -1,7 +1,9 @@
 const farmAnimals = 'cow horse sheep pig chicken';
 
+//Declare colors assigned to the animals
 const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
 
+//Declare muppetNames for each animal
 const muppet = {
   muppetName: 'Miss Piggy',
   color: 'pink',
@@ -37,6 +39,7 @@ const{muppetName, color, song, job, partner} = muppet
 
 const{song2, song4} = nestedMuppet.album.theMuppetMovie
 const{nestedJob, nestedPartner} = nestedMuppet
+
 // Strings
 
 // 1. Use destructuring to assign appropriate variables based on the sounds animals make.
